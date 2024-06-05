@@ -13,7 +13,7 @@ import os
 import stat
 import shutil
 import binascii
-from Crypto.Cipher import AES
+from Cryptodome.Cipher import AES
 import zipfile
 from os.path import basename
 
